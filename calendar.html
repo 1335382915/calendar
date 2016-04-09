@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>calendar</title>
+    <link rel="stylesheet" href="calendar.css">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
+</head>
+<body>
+<div id="all">
+<div id="selectDate"><br>
+    <br><select class="form-control"id="selectYear"onchange="selected(this)"></select><select class="form-control" id="selectMonth"onchange="selected(this)"></select>
+    <br><br><button class="btn btn-default"id="yl"><span>上一年</span></button><button class="btn btn-default" id="yr"><span>下一年</span></button><br><br>
+    <button class="btn btn-default"id="ml"><span>上个月</span></button><button class="btn btn-default"id="mr"><span>下个月</span></button><br><br>
+</div>
+    <table>
+        <tr>
+            <th>周日</th>
+            <th>周一</th>
+            <th>周二</th>
+            <th>周三</th>
+            <th>周四</th>
+            <th>周五</th>
+            <th>周六</th>
+        </tr>
+        <tr></tr>
+    </table>
+</div>
+<script src="calendar.js"></script>
+</body>
+</html>

@@ -1,0 +1,15 @@
+span{font-weight: bold}
+option{font-weight:bold}
+
+p{padding:0;margin:0;}
+#all{width:440px;margin:0 auto;background:#addbff;border-radius:2%;}
+table tr{width:440px;margin-top: 30px;border-radius:2%}
+table tr th{width:60px;height:60px;background:#8a9ead;line-height: 60px;text-align:center;float:left;
+    margin:1.3px;border-radius:10%;font-weight: bold;padding:0}
+table tr td{padding:0}
+#selectYear{width:100px;margin:0 auto;display:inline;}
+#selectMonth{width:100px;margin:0 auto;display:inline}
+.addDay{width:60px;height:60px;background:#98b4ca;text-align: center;float:left;margin:1.3px;border-radius:10%;}
+/*.day{width:40px;height:40px;background:grey;line-height: 40px;text-align: center;float:left;margin:1px}*/
+#selectDate{width:440px;background:#cfeaff;text-align: center;border-radius:2%}
+/*.today{width:60px;height:60px;background:#68b1ed;text-align:center;float:left;margin:1.3px}*/
